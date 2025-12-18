@@ -1,20 +1,21 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello CultureController!{% endblock %}
+{% block title %}La culture{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+   
+    <div class="py-35 justify-end items-end text-right" style="direction: rtl;">
+     <a href="{{path('app_accueil_chantier')}}" class="text-sm hover:underline"><i class="fa-solid fa-arrow-left-long fa-beat "></i>Retour à l'accueil</a>
+        <div id="non-habitants" class="w-1/2 p-8 flex gap-8">
+            <h2 class="text-2xl font-bold mb-4 text-center bg-green-700 p-4 text-white">Les cultures de la dalle</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi in assumenda temporibus libero? Corporis reiciendis, distinctio aliquid, reprehenderit voluptates eum excepturi inventore natus in earum, aperiam sunt adipisci porro eaque accusantium a. Numquam dolor sequi perspiciatis ex illo quos hic? Earum, voluptas fugit cum tenetur, neque harum ullam beatae ea maxime repudiandae nostrum nobis eum voluptatibus minima quidem officia. Est aliquam, cumque maxime praesentium numquam, quasi rem incidunt hic recusandae eligendi magnam amet ipsa magni odio debitis minima dolore reprehenderit autem placeat sed. Necessitatibus ut quos illo sunt omnis aperiam.</p>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>/Users/bintousylla/Desktop/atelier-dalle/src/Controller/CultureController.php</code></li>
-        <li>Your template at <code>/Users/bintousylla/Desktop/atelier-dalle/templates/culture/index.html.twig</code></li>
-    </ul>
-</div>
+       
+        </div>
+            <div id="habitants" class="w-1/2 p-8 flex gap-8">
+            <h2 class="text-2xl font-bold mb-4 text-center bg-green-700 p-4 text-white">Cultiver</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi in assumenda temporibus libero? Corporis reiciendis, distinctio aliquid, reprehenderit voluptates eum excepturi inventore natus in earum, aperiam sunt adipisci porro eaque accusantium a. Numquam dolor sequi perspiciatis ex illo quos hic? Earum, voluptas fugit cum tenetur, neque harum ullam beatae ea maxime repudiandae nostrum nobis eum voluptatibus minima quidem officia. Est aliquam, cumque maxime praesentium numquam, quasi rem incidunt hic recusandae eligendi magnam amet ipsa magni odio debitis minima dolore reprehenderit autem placeat sed. Necessitatibus ut quos illo sunt omnis aperiam.</p>
+        </div>
+        
+    </div>
 {% endblock %}
