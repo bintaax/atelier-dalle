@@ -4,7 +4,7 @@
 
 {% block body %}
     <div class="py-24 items-center text-center justify-center">
-        <h1 class="text-4xl font-bold mb-8">Le chantier de la Dalle Robespierre</h1>
+        <h1 class="text-4xl font-bold mb-8">Le chantier</h1>
         <div class="relative w-full h-[300px] md:h-[500px]">
     <!-- Image -->
     <img 
@@ -14,18 +14,18 @@
     />
 
     <!-- Bouton -->
-    <a href="{{ path('app_culture') }}"class="absolute top-1/2 left-[35%] -translate-y-1/2 bg-teal-400 text-white rounded px-4 py-2 z-10 shadow-lg hover:bg-teal-900 transition">
+    <a href="{{ path('app_culture') }}"class="absolute top-1/2 left-[38%] -translate-y-1/2 text-white w-20 h-20 rounded-full flex items-center justify-center px-4 py-2 z-10 shadow-lg transition bg-emerald-400 hover:bg-emerald-700">
         La culture
     </a>
 
-    <a href="{{ path('app_memoire_quartier') }}"class="absolute top-1/2 left-[55%] -translate-y-1/2 bg-teal-400 text-white rounded px-4 py-2 z-10 shadow-lg hover:bg-teal-900 transition">
+    <a href="{{ path('app_memoire_quartier') }}"class="absolute top-1/2 left-[57%] -translate-y-1/2 text-white w-30 h-30 rounded-full flex items-center justify-center px-4 py-2 z-10 shadow-lg transition bg-rose-500 hover:bg-rose-700">
         La mémoire du quartier </a>
 
   <a 
   href="{{ path('app_co_habiter') }}"
-  class="absolute bottom-[60px] left-1/2 -translate-x-1/2
-         bg-teal-400 text-white rounded px-4 py-2 z-10 
-         shadow-lg hover:bg-teal-900 transition"
+  class="absolute bottom-[50px] left-1/2 -translate-x-1/2
+        text-white  w-30 h-30 rounded-full flex items-center justify-center px-4 py-2 z-10 
+         shadow-lg transition bg-sky-300 hover:bg-sky-600"
 >
   Co-habiter avec le chantier
 </a>
